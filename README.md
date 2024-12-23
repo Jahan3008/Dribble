@@ -38,10 +38,10 @@ Publish the website in the LocalHost.
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #eaf7ea;
+            background-color: #8ce264;
         }
         .header {
-            background-color: #4caf50;
+            background-color: #4d27e5;
             color: white;
             text-align: center;
             padding: 20px 0;
@@ -70,7 +70,7 @@ Publish the website in the LocalHost.
             object-fit: cover;
         }
         .navbar-custom {
-            background-color: #4caf50;
+            background-color: #5810cc;
         }
         .navbar-custom .navbar-brand, .navbar-custom .nav-link {
             color: white;
@@ -206,7 +206,7 @@ Publish the website in the LocalHost.
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot 2024-12-23 220454.png>)
+![alt text](<Screenshot 2024-12-23 221941.png>)
 
 
 ## RESULT:
