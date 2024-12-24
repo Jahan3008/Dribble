@@ -1,5 +1,5 @@
 # Project Responsive Web Design using Bootstrap
-## Date:23/12/2024
+## Date:24/12/2024
 
 ## AIM:
 To create a simplified clone of Dribbble (https://dribbble.com/) landing page.
@@ -35,55 +35,11 @@ Publish the website in the LocalHost.
     <title>Explore Nature</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #8ce264;
-        }
-        .header {
-            background-color: #4d27e5;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-        .header h1 {
-            font-family: 'Cursive', sans-serif;
-        }
-        .category {
-            margin-top: 20px;
-            text-align: center;
-            font-family: 'Georgia', serif;
-        }
-        .card {
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            cursor: pointer;
-            transition: transform 0.2s ease-in-out;
-        }
-        .card:hover {
-            transform: scale(1.05);
-        }
-        .card img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-        .navbar-custom {
-            background-color: #5810cc;
-        }
-        .navbar-custom .navbar-brand, .navbar-custom .nav-link {
-            color: white;
-        }
-        .navbar-custom .nav-link:hover {
-            color: #d4edda;
-        }
-    </style>
 </head>
-<body>
+<body class="bg-success">
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-custom">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Beauty of Nature</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -117,9 +73,9 @@ Publish the website in the LocalHost.
     </nav>
 
     <!-- Header -->
-    <div class="header">
-        <h1>Beauty of Nature</h1>
-        <p>"Discover the beauty of nature and its hidden gems!"</p>
+    <div class="bg-dark text-light text-center py-5">
+        <h1 class="display-4 fw-bolder">Beauty of Nature</h1>
+        <p class="lead">"Discover the beauty of nature and its hidden gems!"</p>
     </div>
 
     <!-- Categories -->
@@ -127,7 +83,7 @@ Publish the website in the LocalHost.
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <a href="#" class="text-decoration-none">
-                    <div class="card">
+                    <div class="card shadow-sm rounded">
                         <img src="ai-generated-ai-generative-outdoor-nature-adventure-forest-walk-path-road-adventures-background-graphic-art-photo.jpg" class="card-img-top" alt="Forests">
                         <div class="card-body">
                             <h5 class="card-title">Forests</h5>
@@ -138,7 +94,7 @@ Publish the website in the LocalHost.
             </div>
             <div class="col">
                 <a href="#" class="text-decoration-none">
-                    <div class="card">
+                    <div class="card shadow-sm rounded">
                         <img src="mountain.jpg" class="card-img-top" alt="Mountains">
                         <div class="card-body">
                             <h5 class="card-title">Mountains</h5>
@@ -149,7 +105,7 @@ Publish the website in the LocalHost.
             </div>
             <div class="col">
                 <a href="#" class="text-decoration-none">
-                    <div class="card">
+                    <div class="card shadow-sm rounded">
                         <img src="river.jpg" class="card-img-top" alt="Rivers">
                         <div class="card-body">
                             <h5 class="card-title">Rivers</h5>
@@ -160,7 +116,7 @@ Publish the website in the LocalHost.
             </div>
             <div class="col">
                 <a href="#" class="text-decoration-none">
-                    <div class="card">
+                    <div class="card shadow-sm rounded">
                         <img src="wildlife.png" class="card-img-top" alt="Wildlife">
                         <div class="card-body">
                             <h5 class="card-title">Wildlife</h5>
@@ -171,7 +127,7 @@ Publish the website in the LocalHost.
             </div>
             <div class="col">
                 <a href="#" class="text-decoration-none">
-                    <div class="card">
+                    <div class="card shadow-sm rounded">
                         <img src="beach.jpeg" class="card-img-top" alt="Beaches">
                         <div class="card-body">
                             <h5 class="card-title">Beaches</h5>
@@ -182,7 +138,7 @@ Publish the website in the LocalHost.
             </div>
             <div class="col">
                 <a href="#" class="text-decoration-none">
-                    <div class="card">
+                    <div class="card shadow-sm rounded">
                         <img src="desert.webp" class="card-img-top" alt="Deserts">
                         <div class="card-body">
                             <h5 class="card-title">Deserts</h5>
@@ -203,10 +159,11 @@ Publish the website in the LocalHost.
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot 2024-12-23 221941.png>)
+![Screenshot (5)](https://github.com/user-attachments/assets/40e84910-e958-4b59-9d53-2a5e0eb13e42)
 
 
 ## RESULT:
